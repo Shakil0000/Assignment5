@@ -1,0 +1,28 @@
+body{
+    margin-left: 10px;
+}
+#headline{
+    text-align: center;
+}
+.pic{
+    width: 300px;
+}
+#mainDiv{
+    margin: 10px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 20px;
+}
+#mealDetailsDiv{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detailsPic{
+    width: 100%;
+}
+#detailsBtn{
+    text-decoration: none;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
